@@ -37,7 +37,7 @@ $(document).ready(function() {
   $("#buscar-gif").click(function(event){
     console.log("Entro");
     $("#elementos").empty();
-    var gif = $("gif-text").val();
+    var gif = $("#gif-text").val();
     ajaxGif(gif);
   });
 });
